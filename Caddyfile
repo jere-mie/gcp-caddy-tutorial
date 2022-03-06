@@ -1,0 +1,3 @@
+www.example.com example.com {
+    reverse_proxy localhost:5000
+}
