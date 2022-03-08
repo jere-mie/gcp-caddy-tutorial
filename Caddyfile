@@ -1,3 +1,10 @@
+# for a flask app or other app that is running on a port 
 www.example.com example.com {
     reverse_proxy localhost:5000
+}
+
+# for a static website (such as html/css/js)
+www.example.com example.com {
+    root ./path/to/your/site
+    file_server
 }
